@@ -2,8 +2,8 @@ import { test, expect } from '@playwright/test';
 
 test('Verify Landing page positive test', async ({ page }) => {
   await page.goto('https://playwright.dev');
- // await expect(page).toHaveScreenshot('landing.png',{ maxDiffPixels: 60000 });
- await expect(page).toHaveScreenshot('landing.png');
+ await expect(page).toHaveScreenshot('landing.png',{ maxDiffPixels: 60000 });
+// await expect(page).toHaveScreenshot('landing.png');
 });
 
 

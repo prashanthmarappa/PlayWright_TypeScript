@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {  
+  "scripts": {
     "test": "jest",
     "test.watch": "jest --watchAll"
   },
@@ -17,5 +17,8 @@
     "jest-playwright-preset": "^3.0.1",
     "ts-jest": "^29.1.1",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.8.1"
   }
 }
